@@ -1,0 +1,135 @@
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  background: var(--ink);
+}
+
+.hero__media {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+
+.hero__media img {
+  width: 100%;
+  height: 118%;
+  object-fit: cover;
+  filter: saturate(1.05);
+}
+
+.hero__scrim {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(18, 33, 63, 0.55) 0%,
+    rgba(18, 33, 63, 0.35) 35%,
+    rgba(18, 33, 63, 0.88) 100%
+  );
+}
+
+.hero__crest {
+  position: absolute;
+  top: 110px;
+  right: 6%;
+  color: var(--gold);
+  opacity: 0;
+  z-index: 2;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 110px;
+  padding-top: 140px;
+  color: var(--paper);
+  max-width: 760px;
+}
+
+.hero__eyebrow {
+  color: var(--gold);
+  margin-bottom: 22px;
+}
+
+.hero__eyebrow::before {
+  background: var(--gold);
+}
+
+.hero__headline {
+  font-size: clamp(42px, 7vw, 80px);
+  color: var(--paper);
+}
+
+.hero__line-wrap {
+  display: block;
+  overflow: hidden;
+}
+
+.hero__line {
+  display: block;
+}
+
+.hero__line--gold {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.hero__sub {
+  margin-top: 26px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(250, 245, 233, 0.82);
+  max-width: 540px;
+}
+
+.hero__ctas {
+  margin-top: 40px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero__scrollcue {
+  position: absolute;
+  bottom: 36px;
+  right: 6%;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: rgba(250, 245, 233, 0.7);
+}
+
+.hero__scrollcue span {
+  width: 1px;
+  height: 46px;
+  background: linear-gradient(to bottom, var(--gold), transparent);
+}
+
+.hero__scrollcue p {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  writing-mode: vertical-rl;
+  text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+  .hero__content {
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+  .hero__crest {
+    top: 90px;
+    right: 22px;
+    transform: scale(0.7);
+    transform-origin: top right;
+  }
+  .hero__scrollcue {
+    display: none;
+  }
+}
