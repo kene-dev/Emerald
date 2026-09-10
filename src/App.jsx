@@ -22,7 +22,7 @@ export default function App() {
         <Programs />
         <Admissions />
         <Testimonials />
-        <Leadership />
+        {/* <Leadership /> */}
         <Gallery />
         <Contact />
       </main>

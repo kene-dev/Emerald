@@ -37,8 +37,8 @@ export default function Programs() {
     <section id="academics" ref={rootRef} className="section programs">
       <div className="container">
         <div className="programs__head">
-          <span className="eyebrow">Academics</span>
-          <h2>Four stages, one continuous track</h2>
+          <span className="eyebrow">Programs & Academics</span>
+          <h2>Comprehensive learning, practical skills and character growth</h2>
         </div>
 
         <div className="programs__grid">

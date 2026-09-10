@@ -83,19 +83,17 @@ export default function Hero() {
       </div>
 
       <div className="container hero__content">
-        <span className="hero__eyebrow eyebrow">Est. {school.founded} · Lekki, Lagos</span>
+        <span className="hero__eyebrow eyebrow">Est. {school.founded} · {school.location}</span>
         <h1 className="hero__headline">
-          <span className="hero__line-wrap"><span className="hero__line">Raising thinkers,</span></span>
-          <span className="hero__line-wrap"><span className="hero__line">not just</span></span>
-          <span className="hero__line-wrap"><span className="hero__line hero__line--gold">exam sitters.</span></span>
+          <span className="hero__line-wrap"><span className="hero__line">Building Bright Minds,</span></span>
+          <span className="hero__line-wrap"><span className="hero__line hero__line--gold">Shaping Future Leaders.</span></span>
         </h1>
         <p className="hero__sub">
-          {school.name} blends the National Curriculum with Cambridge-standard rigour, in
-          classrooms small enough that every child is known by name.
+          {school.subheadline}
         </p>
         <div className="hero__ctas">
-          <a href="#admissions" className="btn btn--gold">Apply Now</a>
-          <a href="#contact" className="btn btn--outline">Book a Tour</a>
+          <a href="#admissions" className="btn btn--gold">Apply for Admission</a>
+          <a href="#contact" className="btn btn--outline">Contact Us</a>
         </div>
       </div>
 

@@ -84,7 +84,7 @@ export default function Navbar() {
 
         <div className="nav__cta">
           <a href="#admissions" onClick={(e) => handleNav(e, "#admissions")} className="btn btn--gold">
-            Apply Now
+            Apply for Admission
           </a>
         </div>
 
@@ -148,11 +148,12 @@ export default function Navbar() {
               onClick={(e) => handleNav(e, "#admissions")}
               className="btn btn--gold nav__mobile-cta"
             >
-              Apply Now
+              Apply for Admission
             </a>
             <div className="nav__mobile-info">
-              <p>{school.phone}</p>
-              <p>{school.email}</p>
+              <p>📍 {school.address}</p>
+              <p>📞 {school.phone}</p>
+              <p>✉️ {school.email}</p>
             </div>
           </div>
         </div>,

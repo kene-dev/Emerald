@@ -17,9 +17,14 @@ const ICONS = {
       <path d="M23 12s0-3.4-.43-5a2.9 2.9 0 0 0-2.05-2.06C18.9 4.5 12 4.5 12 4.5s-6.9 0-8.52.44A2.9 2.9 0 0 0 1.43 7C1 8.6 1 12 1 12s0 3.4.43 5a2.9 2.9 0 0 0 2.05 2.06C5.1 19.5 12 19.5 12 19.5s6.9 0 8.52-.44A2.9 2.9 0 0 0 22.57 17C23 15.4 23 12 23 12ZM9.7 15.3V8.7l5.8 3.3-5.8 3.3Z" />
     </svg>
   ),
-  linkedin: (
+  tiktok: (
     <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-      <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.15 1.45-2.15 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.26 2.37 4.26 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z" />
+      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.29 0 .58.04.85.11V9.41a6.33 6.33 0 0 0-.85-.05A6.33 6.33 0 0 0 3.15 15.7a6.34 6.34 0 0 0 10.84 4.49c.68-.67 1.15-1.51 1.34-2.43.08-.4.12-.81.12-1.23V8.84a8.21 8.21 0 0 0 4.14 1.3V6.69z" />
+    </svg>
+  ),
+  whatsapp: (
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.19 8.19 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.03-1.25-.75-.67-1.26-1.5-1.41-1.75-.15-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08s.89 2.41 1.02 2.58c.13.17 1.76 2.68 4.26 3.76.6.26 1.06.41 1.42.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.1-.23-.17-.48-.29z" />
     </svg>
   ),
 };
@@ -42,24 +47,24 @@ export default function Footer() {
         </div>
 
         <div className="footer__links">
-          <a href="#about">About</a>
+          <a href="#about">About Us</a>
           <a href="#academics">Academics</a>
           <a href="#admissions">Admissions</a>
           <a href="#gallery">Gallery</a>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contact Us</a>
         </div>
 
         <div className="footer__social">
           {Object.entries(school.social).map(([key, url]) => (
             <a key={key} href={url} target="_blank" rel="noreferrer" aria-label={key} className="footer__icon">
-              {ICONS[key]}
+              {ICONS[key] || key}
             </a>
           ))}
         </div>
       </div>
       <div className="container footer__bottom">
         <p>© {new Date().getFullYear()} {school.name}. All rights reserved.</p>
-        <p>Registered with the Lagos State Ministry of Education</p>
+        <p>21/23 Cecilia Odutuga Street, Ilasamaja, Lagos · Jack 'n' Jill Extension · Approved by Lagos State Ministry of Education</p>
       </div>
     </footer>
   );

@@ -47,8 +47,8 @@ export default function Leadership() {
     <section id="leadership" ref={rootRef} className="section section--tint leadership">
       <div className="container">
         <div className="leadership__head">
-          <span className="eyebrow">Leadership</span>
-          <h2>The people who set the tone</h2>
+          <span className="eyebrow">Faculty & Staff</span>
+          <h2>Meet Our Dedicated Team</h2>
         </div>
 
         <div className="leadership__grid">

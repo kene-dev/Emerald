@@ -28,7 +28,7 @@ export default function Gallery() {
           duration: 0.7,
           ease: "power3.out",
           scrollTrigger: { trigger: el, start: "top 90%" },
-          delay: (i % 4) * 0.05,
+          delay: (i % 3) * 0.06,
         });
       });
     }, rootRef);
@@ -45,10 +45,10 @@ export default function Gallery() {
         </div>
 
         <div className="gallery__grid">
-          {gallery.map((img, i) => (
+          {gallery.map((img) => (
             <button
               key={img.src}
-              className={`gallery__item ${i % 5 === 0 ? "gallery__item--tall" : ""}`}
+              className="gallery__item"
               onClick={() => setLightbox(img)}
               aria-label={`Open image: ${img.alt}`}
             >

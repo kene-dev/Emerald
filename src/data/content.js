@@ -1,170 +1,198 @@
-// Central content file — edit this to rebrand the site for a different school.
+// Central content file — updated with Emerald College, Ilasamaja core content.
 // All imagery is sourced from Unsplash (free-to-use license, no attribution required).
 
 export const school = {
-  name: "Emerald College",
+  name: "Emerald College, Ilasamaja",
   shortName: "Emerald College",
-  tagline: "Educating the whole child, in Lagos and beyond",
-  founded: 2003,
-  address: "14 Admiralty Way, Lekki Phase 1, Lagos, Nigeria",
-  phone: "+234 803 555 0192",
-  email: "admissions@emeraldcollege.edu.ng",
-  hours: "Mon – Fri, 7:30am – 4:00pm",
+  tagline: "Building Bright Minds, Shaping Future Leaders",
+  headline: "Building Bright Minds, Shaping Future Leaders",
+  subheadline:
+    "Providing quality education, character development and practical learning in a safe and nurturing environment.",
+  schoolType: "Junior & Senior Secondary School",
+  extensionOf: "Jack 'n' Jill Children's School",
+  founded: 1998,
+  foundingDate: "October 5th, 1998",
+  yearsInOperation: 28,
+  address: "21/23 Cecilia Odutuga Street, Ilasamaja, Lagos",
+  location: "Ilasamaja, Lagos",
+  phone: "08023070368, 08037208446",
+  phones: ["08023070368", "08037208446"],
+  whatsapp: "08023070368",
+  whatsappUrl: "https://wa.me/2348023070368",
+  email: "emeraldcollege1998@gmail.com",
+  hours: "Mon – Thu: 7:30am – 3:45pm | Fri: 7:30am – 1:30pm",
+  hoursSchedule: {
+    monThu: "7:30am – 3:45pm",
+    fri: "7:30am – 1:30pm",
+  },
   social: {
-    facebook: "https://facebook.com",
     instagram: "https://instagram.com",
-    youtube: "https://youtube.com",
-    linkedin: "https://linkedin.com",
+    facebook: "https://facebook.com",
+    tiktok: "https://tiktok.com",
+    whatsapp: "https://wa.me/2348023070368",
   },
   mapEmbed:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63377.02!2d3.4531!3d6.4432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8ad14b6fcf6b%3A0x2fdcb1c9f8b95a8c!2sLekki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1700000000000",
+    "https://maps.google.com/maps?q=21%2F23+Cecilia+Odutuga+Street%2C+Ilasamaja%2C+Lagos&t=&z=15&ie=UTF8&iwloc=&output=embed",
+
+  vision:
+    "To be a national centre of excellence in learning, discipline, probity and service to God and humanity.",
+  mission:
+    "To provide a conducive environment second to none for learning, recreation and community services.",
+  about:
+    "Emerald College is committed to providing quality and holistic education that nurtures academic excellence, confidence, discipline, creativity and good character.",
+  history:
+    "Emerald College, an extension of Jack 'n' Jill children's school, was founded on October 5th 1998. The college is located at the same site with the primary school, though in another wing of the building at 21/23 Cecilia Odutuga Street, Ilasamaja. The college is run on fully accredited curriculum as stipulated in Lagos state and National Education policies, offering an integrated curriculum for Junior Secondary School and Senior Secondary School (JSS and SSS) to equip students who are Nigerian Leaders of tomorrow to find their feet in the macro-society.",
 };
 
 export const stats = [
-  { value: 850, suffix: "+", label: "Students enrolled" },
-  { value: 22, suffix: "", label: "Years running" },
-  { value: 14, suffix: ":1", label: "Student–teacher ratio" },
-  { value: 96, suffix: "%", label: "WAEC / NECO pass rate" },
+  { value: 28, suffix: "", label: "Years in operation" },
+  { value: 245, suffix: "+", label: "Students enrolled" },
+  { value: 20, suffix: "+", label: "Dedicated teachers" },
+  { value: 98, suffix: "%", label: "Academic pass rate" },
 ];
 
 export const programs = [
   {
-    id: "early-years",
-    name: "Early Years",
-    ages: "Ages 3 – 5",
+    id: "junior-secondary",
+    name: "Junior Secondary Education",
+    ages: "JSS 1 – JSS 3",
     description:
-      "A play-led foundation stage built around phonics, numeracy and Yoruba, Igbo or Hausa language exposure, so children arrive at Primary One confident and curious.",
+      "A rigorous, fully accredited foundational curriculum covering sciences, humanities, business studies, and languages designed to prepare students thoroughly for the BECE.",
   },
   {
-    id: "primary",
-    name: "Primary School",
-    ages: "Ages 6 – 11",
+    id: "senior-secondary",
+    name: "Senior Secondary Education",
+    ages: "SSS 1 – SSS 3",
     description:
-      "The full National Common Curriculum enriched with coding, creative arts and a strong reading culture — every child leaves Primary Six reading two grades above level.",
+      "Comprehensive WAEC and NECO preparation with specialised tracks for Science, Commercial, and Arts faculties, giving students the analytical mastery to thrive in tertiary institutions.",
   },
   {
-    id: "secondary",
-    name: "Junior & Senior Secondary",
-    ages: "Ages 12 – 17",
+    id: "ict-computer",
+    name: "ICT & Computer Training",
+    ages: "All Year Groups",
     description:
-      "WAEC and NECO preparation alongside Cambridge IGCSE options, with dedicated tracks for Sciences, Commercials and Arts from JSS3 onward.",
+      "Hands-on computer education and digital skills in our equipped computer laboratory, empowering every student with essential digital literacy and modern technological capabilities.",
   },
   {
-    id: "extracurricular",
-    name: "Clubs & Sport",
-    ages: "All year groups",
+    id: "sports-physical",
+    name: "Sports & Physical Education",
+    ages: "All Year Groups",
     description:
-      "Debate, robotics, Model UN, football and swimming — every student represents the school in at least one inter-house or inter-school competition each term.",
-  },
-];
-
-export const admissionSteps = [
-  {
-    term: "Step 1",
-    title: "Submit an inquiry",
-    window: "Rolling, all year",
-    description:
-      "Complete the online inquiry form or call the admissions office. We'll send the prospectus and an entrance assessment date within 48 hours.",
+      "Structured athletics, inter-house sports competitions, table tennis, and football that foster physical fitness, teamwork, leadership, and sporting discipline.",
   },
   {
-    term: "Step 2",
-    title: "Campus tour & assessment",
-    window: "Tuesdays & Thursdays, 9am",
+    id: "creative-skills",
+    name: "Creative Arts & Talent Development",
+    ages: "All Year Groups",
     description:
-      "Tour the campus with a current parent, then your child sits a short, age-appropriate literacy and numeracy assessment — no pressure, just a conversation.",
+      "Nurturing individuality and creative expression through visual arts, music, cultural performances, drama, and practical talent development showcases.",
   },
   {
-    term: "Step 3",
-    title: "Offer & enrollment",
-    window: "Within 10 working days",
+    id: "skill-acquisition",
+    name: "Skill Acquisition & Extracurriculars",
+    ages: "All Year Groups",
     description:
-      "Successful applicants receive a formal offer letter. Secure the place with the enrollment deposit and completed medical/guardian forms.",
+      "Practical learning sessions, vocational craftsmanship, debate societies, and school clubs that equip students with real-world skills for self-reliance in the macro-society.",
   },
   {
-    term: "Step 4",
-    title: "Resumption",
-    window: "September, January or April",
+    id: "nursery-primary",
+    name: "Jack 'n' Jill Nursery & Primary",
+    ages: "Toddler – Primary 6",
     description:
-      "Join at the start of any of our three terms. New students get a buddy from their class and a settling-in call from the form teacher in week one.",
+      "Our sister primary wing on the same compound providing high-standard early childhood and foundational education with seamless progression into Emerald College.",
+  },
+  {
+    id: "holiday-lessons",
+    name: "Holiday & Summer Lessons",
+    ages: "Vacation Periods",
+    description:
+      "Engaging holiday enrichment programs, syllabus booster lessons, and creative workshops designed to keep young minds active, curious, and ahead of the curve.",
   },
 ];
 
 export const admissionsInfo = {
-  requirements: [
-    "Completed application form + 2 passport photographs",
-    "Birth certificate or international passport",
-    "Previous school's report card (last 2 terms)",
-    "Transfer/testimonial letter for JSS/SSS entry",
-    "Immunization record",
+  status: "Admission is currently in progress.",
+  notice:
+    "Parents/guardians interested in enrolling their children can contact the school or visit the school office for more information.",
+  ctaText: "Start Your Child’s Journey With Us → Apply Now",
+  items: [
+    {
+      label: "Admission Requirements",
+      value: "FREE PHYSICAL TEST CONDUCT",
+      desc: "Conducted on campus for prospective students",
+    },
+    {
+      label: "Available Classes",
+      value: "JSS1 – SS3",
+      desc: "Junior & Senior Secondary School",
+    },
+    {
+      label: "Application Deadline",
+      value: "2ND TERM OF THE SESSION",
+      desc: "Open throughout the academic session",
+    },
+    {
+      label: "Registration / Application Fee",
+      value: "₦5,000",
+      desc: "Standard application registration fee",
+    },
   ],
-  deadlines: [
-    { term: "First Term", window: "Closes 2nd week of August" },
-    { term: "Second Term", window: "Closes 2nd week of December" },
-    { term: "Third Term", window: "Closes 2nd week of March" },
-  ],
-  fees: [
-    { level: "Early Years", tuition: "₦420,000 / term" },
-    { level: "Primary School", tuition: "₦510,000 / term" },
-    { level: "Junior Secondary", tuition: "₦640,000 / term" },
-    { level: "Senior Secondary", tuition: "₦710,000 / term" },
-  ],
-  note: "Fees include books, lunch and the school bus within Lekki–Ajah. A one-time ₦150,000 registration fee applies to new admissions.",
 };
 
 export const testimonials = [
   {
     quote:
-      "My son struggled with confidence in his old school. Two terms into JSS1 at Emerald College and he's running for Prefect. The form teachers actually know him.",
-    name: "Adaeze Okonkwo",
-    role: "Parent, JSS1",
+      "We have been impressed with the quality of teaching, discipline and care our child receives at the school. Emerald College truly nurtures the whole child.",
+    name: "Mrs. Adebayo",
+    role: "Parent, Emerald College",
     image:
       "https://images.unsplash.com/photo-1666281269793-da06484657e8?auto=format&fit=crop&w=200&h=200&q=80",
   },
   {
     quote:
-      "The robotics club rebuilt how I think about problems. We placed second at the Lagos State STEM Fair and our coach stayed back every Saturday to help us.",
-    name: "Tobi Adewale",
-    role: "SS2 Student",
+      "Attending Emerald College built my academic foundation and personal discipline. The teachers took genuine personal interest in our success, which prepared me to excel in higher education.",
+    name: "Kelechi N.",
+    role: "Alumna, Class of 2019",
     image:
-      "https://images.unsplash.com/photo-1632215863153-0dae7657d0a9?auto=format&fit=crop&w=200&h=200&q=80",
+      "https://images.unsplash.com/photo-1547226706-af7e2c20bcea?auto=format&fit=crop&w=200&h=200&q=80",
   },
   {
     quote:
-      "I finished SSS3 at Emerald College in 2018 and I'm now in my final year of Medicine at UNILAG. The study habits I built there still carry me through exam weeks.",
-    name: "Chiamaka Eze",
-    role: "Alumna, Class of 2018",
+      "The practical ICT classes, sports activities, and supportive teachers make learning inspiring every day. Emerald College pushes every student to become a confident leader.",
+    name: "Michael O.",
+    role: "Senior Prefect, SS 3",
     image:
-      "https://images.unsplash.com/photo-1547226706-af7e2c20bcea?auto=format&fit=crop&w=200&h=200&q=80",
+      "https://images.unsplash.com/photo-1632215863153-0dae7657d0a9?auto=format&fit=crop&w=200&h=200&q=80",
   },
 ];
 
 export const leadership = [
   {
-    name: "Dr. Folasade Bamigboye",
-    title: "Head of School",
-    bio: "22 years in Nigerian secondary education; PhD in Educational Leadership, University of Ibadan.",
+    name: "Principal & Management Team",
+    title: "School Leadership",
+    bio: "Guiding Emerald College with over two decades of educational excellence, steering student discipline, character formation, and Lagos State curriculum standards.",
     image:
       "https://images.unsplash.com/photo-1594750852563-5ed8e0421d40?auto=format&fit=crop&w=500&h=600&q=80",
     featured: true,
   },
   {
-    name: "Mr. Emeka Chukwuemeka",
+    name: "Academic Coordinator",
     title: "Vice Principal, Academics",
-    bio: "Leads curriculum design and oversees WAEC/NECO results across all subject departments.",
+    bio: "Supervises curriculum delivery, continuous assessments, and stellar WAEC/NECO preparation across all departments.",
     image:
       "https://images.unsplash.com/photo-1608485439523-25b28d982428?auto=format&fit=crop&w=400&h=500&q=80",
   },
   {
-    name: "Mrs. Ngozi Umeh",
-    title: "Head of Primary",
-    bio: "Fifteen years teaching Key Stage 1–2; champions the school's phonics and reading program.",
+    name: "Jack 'n' Jill Foundation Lead",
+    title: "Head of Primary Wing",
+    bio: "Oversees the foundational nursery and primary education, ensuring seamless early development into secondary school.",
     image:
       "https://images.unsplash.com/photo-1546525848-3ce03ca516f6?auto=format&fit=crop&w=400&h=500&q=80",
   },
   {
-    name: "Mr. Ibrahim Suleiman",
-    title: "Dean of Students",
-    bio: "Runs the pastoral care and prefect system; former national athletics coach.",
+    name: "Dean of Student Affairs",
+    title: "Discipline & Co-Curricular Lead",
+    bio: "Fosters student welfare, sports programs, moral discipline, and extracurricular leadership across all classes.",
     image:
       "https://images.unsplash.com/photo-1631131426242-0abfa7f209c2?auto=format&fit=crop&w=400&h=500&q=80",
   },
@@ -173,35 +201,35 @@ export const leadership = [
 export const gallery = [
   {
     src: "https://images.unsplash.com/photo-1632215861513-130b66fe97f4?auto=format&fit=crop&w=800&h=1000&q=80",
-    alt: "Teacher leading a class of primary school students",
+    alt: "Teacher leading an engaging secondary school class",
   },
   {
     src: "https://images.unsplash.com/photo-1553777907-f5dbbbb44d7c?auto=format&fit=crop&w=800&h=600&q=80",
-    alt: "Students running across the school compound",
+    alt: "Students actively engaged in outdoor sports activities",
   },
   {
     src: "https://images.unsplash.com/photo-1617056239820-8ce90ba48193?auto=format&fit=crop&w=800&h=1000&q=80",
-    alt: "Student in school uniform",
+    alt: "Emerald College student in school uniform",
   },
-  {
-    src: "https://images.unsplash.com/photo-1770843093640-c44ae557928b?auto=format&fit=crop&w=800&h=600&q=80",
-    alt: "Children in a classroom with number charts on the wall",
-  },
+  // {
+  //   src: "https://images.unsplash.com/photo-1770843093640-c44ae557928b?auto=format&fit=crop&w=800&h=600&q=80",
+  //   alt: "Jack 'n' Jill foundational classroom with learning charts",
+  // },
   {
     src: "https://images.unsplash.com/photo-1548102245-c79dbcfa9f92?auto=format&fit=crop&w=800&h=1000&q=80",
-    alt: "Two students standing together",
+    alt: "Students collaborating on academic projects",
   },
-  {
-    src: "https://images.unsplash.com/photo-1539893867126-7ce0b48971ca?auto=format&fit=crop&w=800&h=600&q=80",
-    alt: "Student writing in a notebook",
-  },
+  // {
+  //   src: "https://images.unsplash.com/photo-1539893867126-7ce0b48971ca?auto=format&fit=crop&w=800&h=600&q=80",
+  //   alt: "Secondary student taking study notes in class",
+  // },
   {
     src: "https://images.unsplash.com/photo-1744809495173-217ca4faa8bc?auto=format&fit=crop&w=800&h=1000&q=80",
-    alt: "Student carefully drawing lines with a ruler",
+    alt: "Student learning technical drawing and geometry skills",
   },
   {
     src: "https://images.unsplash.com/photo-1744809448493-448812255e4d?auto=format&fit=crop&w=800&h=600&q=80",
-    alt: "Smiling student giving the peace sign",
+    alt: "Cheerful student exemplifying confidence and warmth",
   },
 ];
 

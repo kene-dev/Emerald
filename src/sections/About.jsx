@@ -67,19 +67,21 @@ export default function About() {
         </div>
 
         <div className="about__copy">
-          <span className="eyebrow">Our mission</span>
+          <span className="eyebrow">About Emerald College</span>
           <h2>
-            We build the habits that outlast the syllabus.
+            To be a national centre of excellence in learning, discipline, probity and service.
           </h2>
           <p>
-            {school.name} was founded in {school.founded} on a simple belief: a Nigerian
-            child given rigorous teaching, real attention and a sense of belonging can
-            compete anywhere in the world.
+            {school.about}
           </p>
+          <div className="about__mission-box">
+            <p className="about__mission-label">Our Mission</p>
+            <p className="about__mission-text">
+              &ldquo;{school.mission}&rdquo;
+            </p>
+          </div>
           <p>
-            Every class is capped, every form teacher tracks each child's progress by
-            name, and every term ends with a written report a parent can actually act on
-            — not just a grade.
+            {school.history}
           </p>
         </div>
       </div>
