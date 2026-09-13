@@ -62,7 +62,7 @@ export default function About() {
     <section id="about" ref={rootRef} className="section about">
       <div className="container about__grid">
         <div className="about__imagewrap">
-          <img src={aboutImage} alt="Students at assembly" />
+          <img src={aboutImage} alt="Emerald College leadership with graduating students" />
           <div className="about__imageframe" />
         </div>
 

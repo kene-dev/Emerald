@@ -145,24 +145,21 @@ export const testimonials = [
       "We have been impressed with the quality of teaching, discipline and care our child receives at the school. Emerald College truly nurtures the whole child.",
     name: "Mrs. Adebayo",
     role: "Parent, Emerald College",
-    image:
-      "https://images.unsplash.com/photo-1666281269793-da06484657e8?auto=format&fit=crop&w=200&h=200&q=80",
+    image: "/images/testimonials/mrs-adebayo.jpg",
   },
   {
     quote:
       "Attending Emerald College built my academic foundation and personal discipline. The teachers took genuine personal interest in our success, which prepared me to excel in higher education.",
     name: "Kelechi N.",
     role: "Alumna, Class of 2019",
-    image:
-      "https://images.unsplash.com/photo-1547226706-af7e2c20bcea?auto=format&fit=crop&w=200&h=200&q=80",
+    image: "/images/testimonials/kelechi-n.jpg",
   },
   {
     quote:
       "The practical ICT classes, sports activities, and supportive teachers make learning inspiring every day. Emerald College pushes every student to become a confident leader.",
     name: "Michael O.",
     role: "Senior Prefect, SS 3",
-    image:
-      "https://images.unsplash.com/photo-1632215863153-0dae7657d0a9?auto=format&fit=crop&w=200&h=200&q=80",
+    image: "/images/testimonials/michael-o.jpg",
   },
 ];
 
@@ -200,41 +197,48 @@ export const leadership = [
 
 export const gallery = [
   {
-    src: "https://images.unsplash.com/photo-1632215861513-130b66fe97f4?auto=format&fit=crop&w=800&h=1000&q=80",
-    alt: "Teacher leading an engaging secondary school class",
+    src: "/images/uniform-class.jpeg",
+    alt: "Emerald College students gathered in official school uniform",
   },
   {
-    src: "https://images.unsplash.com/photo-1553777907-f5dbbbb44d7c?auto=format&fit=crop&w=800&h=600&q=80",
-    alt: "Students actively engaged in outdoor sports activities",
+    src: "/images/science-lab.jpeg",
+    alt: "Students and teacher conducting practical science experiments in the laboratory",
   },
   {
-    src: "https://images.unsplash.com/photo-1617056239820-8ce90ba48193?auto=format&fit=crop&w=800&h=1000&q=80",
-    alt: "Emerald College student in school uniform",
-  },
-  // {
-  //   src: "https://images.unsplash.com/photo-1770843093640-c44ae557928b?auto=format&fit=crop&w=800&h=600&q=80",
-  //   alt: "Jack 'n' Jill foundational classroom with learning charts",
-  // },
-  {
-    src: "https://images.unsplash.com/photo-1548102245-c79dbcfa9f92?auto=format&fit=crop&w=800&h=1000&q=80",
-    alt: "Students collaborating on academic projects",
-  },
-  // {
-  //   src: "https://images.unsplash.com/photo-1539893867126-7ce0b48971ca?auto=format&fit=crop&w=800&h=600&q=80",
-  //   alt: "Secondary student taking study notes in class",
-  // },
-  {
-    src: "https://images.unsplash.com/photo-1744809495173-217ca4faa8bc?auto=format&fit=crop&w=800&h=1000&q=80",
-    alt: "Student learning technical drawing and geometry skills",
+    src: "/images/microscope-study.jpeg",
+    alt: "Students examining specimens under a microscope during biology practicals",
   },
   {
-    src: "https://images.unsplash.com/photo-1744809448493-448812255e4d?auto=format&fit=crop&w=800&h=600&q=80",
-    alt: "Cheerful student exemplifying confidence and warmth",
+    src: "/images/graduands-purple.jpeg",
+    alt: "Emerald College SS3 Graduands celebrating in ceremonial graduation attire",
+  },
+  {
+    src: "/images/graduating-class.jpeg",
+    alt: "Emerald College graduating class formal portrait",
+  },
+  {
+    src: "/images/award-excellence.jpeg",
+    alt: "Award of Excellence presentation to 1st Overall Best Student",
+  },
+  {
+    src: "/images/valedictory-speech.jpeg",
+    alt: "School management address during the valedictory service",
+  },
+  {
+    src: "/images/award-presentation.jpeg",
+    alt: "Proud parents and faculty during student merit award recognition",
+  },
+  {
+    src: "/images/graduation-celebration.jpeg",
+    alt: "Joyful students celebrating graduation milestones",
+  },
+  {
+    src: "/images/students-celebration.jpeg",
+    alt: "Emerald College faculty and students at festive school gathering",
   },
 ];
 
 export const heroImage =
   "https://images.unsplash.com/photo-1744809482817-9a9d4fc280af?auto=format&fit=crop&w=1600&h=2000&q=80";
 
-export const aboutImage =
-  "https://images.unsplash.com/photo-1632215865645-3efa9af21424?auto=format&fit=crop&w=1200&h=1400&q=80";
+export const aboutImage = "/images/about.jpeg";
