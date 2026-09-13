@@ -48,9 +48,14 @@ export default function Contact() {
             <div>
               <p className="contact__label">Phone Numbers</p>
               <p>
-                <a href="tel:08023070368" style={{ color: "inherit", textDecoration: "none" }}>08023070368</a>
-                {", "}
-                <a href="tel:08037208446" style={{ color: "inherit", textDecoration: "none" }}>08037208446</a>
+                {school.phones.map((phone, idx) => (
+                  <span key={phone}>
+                    {idx > 0 && <br />}
+                    <a href={`tel:${phone}`} style={{ color: "inherit", textDecoration: "none" }}>
+                      {phone}
+                    </a>
+                  </span>
+                ))}
               </p>
             </div>
             <div>
