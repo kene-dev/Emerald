@@ -1,9 +1,9 @@
-// Central content file — updated with Emerald College, Ilasamaja core content.
+// Central content file — updated with Emerald Education Consult core content.
 // All imagery is sourced from Unsplash (free-to-use license, no attribution required).
 
 export const school = {
-  name: "Emerald College, Ilasamaja",
-  shortName: "Emerald College",
+  name: "Emerald Education Consult",
+  shortName: "Emerald Education Consult",
   tagline: "Building Bright Minds, Shaping Future Leaders",
   headline: "Building Bright Minds, Shaping Future Leaders",
   subheadline:
@@ -39,9 +39,9 @@ export const school = {
   mission:
     "To provide a conducive environment second to none for learning, recreation and community services.",
   about:
-    "Emerald College is committed to providing quality and holistic education that nurtures academic excellence, confidence, discipline, creativity and good character.",
+    "Emerald Education Consult is committed to providing quality and holistic education that nurtures academic excellence, confidence, discipline, creativity and good character.",
   history:
-    "Emerald College, an extension of Jack 'n' Jill children's school, was founded on October 5th 1998. The college is located at the same site with the primary school, though in another wing of the building at 21/23 Cecilia Odutuga Street, Ilasamaja. The college is run on fully accredited curriculum as stipulated in Lagos state and National Education policies, offering an integrated curriculum for Junior Secondary School and Senior Secondary School (JSS and SSS) to equip students who are Nigerian Leaders of tomorrow to find their feet in the macro-society.",
+    "Emerald Education Consult, an extension of Jack 'n' Jill children's school, was founded on October 5th 1998. The institution is located at the same site with the primary school, though in another wing of the building at 21/23 Cecilia Odutuga Street, Ilasamaja. The school is run on fully accredited curriculum as stipulated in Lagos state and National Education policies, offering an integrated curriculum for Junior Secondary School and Senior Secondary School (JSS and SSS) to equip students who are Nigerian Leaders of tomorrow to find their feet in the macro-society.",
 };
 
 export const stats = [
@@ -99,7 +99,7 @@ export const programs = [
     name: "Jack 'n' Jill Nursery & Primary",
     ages: "Toddler – Primary 6",
     description:
-      "Our sister primary wing on the same compound providing high-standard early childhood and foundational education with seamless progression into Emerald College.",
+      "Our sister primary wing on the same compound providing high-standard early childhood and foundational education with seamless progression into Emerald Education Consult.",
   },
   {
     id: "holiday-lessons",
@@ -142,21 +142,21 @@ export const admissionsInfo = {
 export const testimonials = [
   {
     quote:
-      "We have been impressed with the quality of teaching, discipline and care our child receives at the school. Emerald College truly nurtures the whole child.",
+      "We have been impressed with the quality of teaching, discipline and care our child receives at the school. Emerald Education Consult truly nurtures the whole child.",
     name: "Mrs. Adebayo",
-    role: "Parent, Emerald College",
+    role: "Parent, Emerald Education Consult",
     image: "/images/testimonials/mrs-adebayo.jpg",
   },
   {
     quote:
-      "Attending Emerald College built my academic foundation and personal discipline. The teachers took genuine personal interest in our success, which prepared me to excel in higher education.",
+      "Attending Emerald Education Consult built my academic foundation and personal discipline. The teachers took genuine personal interest in our success, which prepared me to excel in higher education.",
     name: "Kelechi N.",
     role: "Alumna, Class of 2019",
     image: "/images/testimonials/kelechi-n.jpg",
   },
   {
     quote:
-      "The practical ICT classes, sports activities, and supportive teachers make learning inspiring every day. Emerald College pushes every student to become a confident leader.",
+      "The practical ICT classes, sports activities, and supportive teachers make learning inspiring every day. Emerald Education Consult pushes every student to become a confident leader.",
     name: "Michael O.",
     role: "Senior Prefect, SS 3",
     image: "/images/testimonials/michael-o.jpg",
@@ -167,7 +167,7 @@ export const leadership = [
   {
     name: "Principal & Management Team",
     title: "School Leadership",
-    bio: "Guiding Emerald College with over two decades of educational excellence, steering student discipline, character formation, and Lagos State curriculum standards.",
+    bio: "Guiding Emerald Education Consult with over two decades of educational excellence, steering student discipline, character formation, and Lagos State curriculum standards.",
     image:
       "https://images.unsplash.com/photo-1594750852563-5ed8e0421d40?auto=format&fit=crop&w=500&h=600&q=80",
     featured: true,
@@ -198,7 +198,7 @@ export const leadership = [
 export const gallery = [
   {
     src: "/images/uniform-class.jpeg",
-    alt: "Emerald College students gathered in official school uniform",
+    alt: "Emerald Education Consult students gathered in official school uniform",
   },
   {
     src: "/images/science-lab.jpeg",
@@ -210,11 +210,11 @@ export const gallery = [
   },
   {
     src: "/images/graduands-purple.jpeg",
-    alt: "Emerald College SS3 Graduands celebrating in ceremonial graduation attire",
+    alt: "Emerald Education Consult SS3 Graduands celebrating in ceremonial graduation attire",
   },
   {
     src: "/images/graduating-class.jpeg",
-    alt: "Emerald College graduating class formal portrait",
+    alt: "Emerald Education Consult graduating class formal portrait",
   },
   {
     src: "/images/award-excellence.jpeg",
@@ -234,7 +234,7 @@ export const gallery = [
   },
   {
     src: "/images/students-celebration.jpeg",
-    alt: "Emerald College faculty and students at festive school gathering",
+    alt: "Emerald Education Consult faculty and students at festive school gathering",
   },
 ];
 

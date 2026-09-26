@@ -62,12 +62,12 @@ export default function About() {
     <section id="about" ref={rootRef} className="section about">
       <div className="container about__grid">
         <div className="about__imagewrap">
-          <img src={aboutImage} alt="Emerald College leadership with graduating students" />
+          <img src={aboutImage} alt={`${school.shortName} leadership with graduating students`} />
           <div className="about__imageframe" />
         </div>
 
         <div className="about__copy">
-          <span className="eyebrow">About Emerald College</span>
+          <span className="eyebrow">About {school.shortName}</span>
           <h2>
             To be a national centre of excellence in learning, discipline, probity and service.
           </h2>

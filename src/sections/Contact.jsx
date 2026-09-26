@@ -34,7 +34,7 @@ export default function Contact() {
         <div className="contact__side">
           <div className="contact__map">
             <iframe
-              title="Emerald College location map"
+              title={`${school.shortName} location map`}
               src={school.mapEmbed}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

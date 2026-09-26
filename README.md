@@ -1,4 +1,4 @@
-# Emerald College — Website
+# Emerald Education Consult — Website
 
 A single-page React site for a Nigerian private school, built with Vite,
 [GSAP](https://gsap.com/) (ScrollTrigger) for scroll-driven animation, and

@@ -65,7 +65,7 @@ export default function Hero() {
   return (
     <section id="top" ref={rootRef} className="hero">
       <div className="hero__media">
-        <img ref={imgRef} src={heroImage} alt="Students at Emerald College" />
+        <img ref={imgRef} src={heroImage} alt={`Students at ${school.shortName}`} />
         <div className="hero__scrim" />
       </div>
 
